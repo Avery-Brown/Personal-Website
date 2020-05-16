@@ -1,25 +1,44 @@
 h1, h2, p {
     text-align: center;
+    margin: 30px;
 }
 
-img.center {
-    display: block;
+.embed-responsive {
     margin: auto;
-    width: 15%;
+    padding-bottom:90%;
+    width: 75%;
 }
+
+@media (max-width: 599px) {
+    img.center {
+        display: block;
+        margin: auto;
+        width: 30%;
+    }
+  }
+
+@media (min-width: 600px) {
+    img.center {
+        display: block;
+        margin: auto;
+        width: 15%;
+    }
+  }
 
 form {
     text-align: center;
 }
 
-button, button:hover, button:not(hover) {
-    display:block;
-    margin: auto;
+
+.submit:hover, .submit:not(hover) {
+    text-align: center;
+    margin: 30px
 }
+
 
 @media (max-width: 600px) {
     body {
-        background-color: lightsalmon;
+        background-color: white;
     }
   }
 
