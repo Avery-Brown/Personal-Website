@@ -17,6 +17,8 @@ button, button:hover {
     margin: auto;
 }
 
+
+
 .topnav {
     background-color: rgb(39, 38, 38);
     overflow: hidden;
@@ -43,3 +45,9 @@ button, button:hover {
     background-color: lightcoral;
     color: white;
   }
+
+@media (max-width: 500px) {
+    body {
+        background-color: lightsalmon;
+    }
+}
