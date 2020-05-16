@@ -12,19 +12,25 @@ form {
     text-align: center;
 }
 
-button, button:hover {
+button, button:hover, button:not(hover) {
     display:block;
     margin: auto;
 }
 
+@media (max-width: 600px) {
+    body {
+        background-color: lightsalmon;
+    }
+  }
 
+/*
 
 .topnav {
     background-color: rgb(39, 38, 38);
     overflow: hidden;
   }
   
-  /* Style the links inside the navigation bar */
+  // Style the links inside the navigation bar
   .topnav a {
     float: left;
     color: white;
@@ -34,20 +40,16 @@ button, button:hover {
     font-size: 17px;
   }
   
-  /* Change the color of links on hover */
+  // Change the color of links on hover
   .topnav a:hover{
       background-color: lightgrey;
       color: black;
   }
   
-  /* Add a color to the active/current link */
+  // Add a color to the active/current link 
   .topnav a.active {
     background-color: lightcoral;
     color: white;
   }
 
-@media (max-width: 500px) {
-    body {
-        background-color: lightsalmon;
-    }
-}
+  */
